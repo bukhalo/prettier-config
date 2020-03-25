@@ -1,0 +1,35 @@
+{
+  "name": "@robotmafia-inc/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier configuration",
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "config",
+    "codestyle"
+  ],
+  "homepage": "https://github.com/robotmafia-inc/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/robotmafia-inc/prettier-config/issues"
+  },
+  "license": "MIT",
+  "author": "robotmafia Inc. <hello@robotmafia.io> (https://robotmafia.io/)",
+  "contributors": [
+    {
+      "name": "donbot",
+      "email": "donbot@robotmafia.io",
+      "url": "https://github.com/donbot-inc"
+    }
+  ],
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robotmafia-inc/prettier-config.git"
+  },
+  "peerDependencies": {
+    "prettier": ">=1.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
