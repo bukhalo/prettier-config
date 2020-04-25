@@ -1,35 +1,32 @@
 {
-  "name": "@robotmafia-inc/prettier-config",
+  "name": "@bukhalo/prettier-config",
   "version": "1.0.0",
-  "description": "Prettier configuration",
+  "description": "Personal prettier configuration by Aleksandr Bukhalo",
   "keywords": [
     "prettier",
     "prettier-config",
     "config",
     "codestyle"
   ],
-  "homepage": "https://github.com/robotmafia-inc/prettier-config#readme",
+  "homepage": "https://github.com/bukhalo/prettier-config#readme",
   "bugs": {
-    "url": "https://github.com/robotmafia-inc/prettier-config/issues"
+    "url": "https://github.com/bukhalo/prettier-config/issues"
   },
   "license": "MIT",
-  "author": "robotmafia Inc. <hello@robotmafia.io> (https://robotmafia.io/)",
+  "author": "Aleksandr Bukhalo <a@bukhalo.com> (https://bukhalo.com/)",
   "contributors": [
     {
-      "name": "donbot",
-      "email": "donbot@robotmafia.io",
-      "url": "https://github.com/donbot-inc"
+      "name": "Aleksandr Bukhalo",
+      "email": "a@bukhalo.com",
+      "url": "https://github.com/bukhalo/"
     }
   ],
   "main": "index.json",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robotmafia-inc/prettier-config.git"
+  "repository": "git@github.com:bukhalo/prettier-config.git",
+  "scripts": {
+    "publish:npm": "npm publish --access public"
   },
   "peerDependencies": {
     "prettier": ">=1.9.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
